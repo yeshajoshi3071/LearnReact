@@ -16,8 +16,12 @@
     </script> -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-
+<!-- Does the order of this files matter? -> Yes
+    Order of this files always in sequence, first react and then react-dom  as we need
+    react core first and then react-dom to render the react code in the browser.  -->
     <script src="./app.js"></script>
 </body>
 </html>
+
+<!-- if root already has some elements, it will get replaced when root is rendered again -->
 

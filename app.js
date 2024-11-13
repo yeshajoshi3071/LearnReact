@@ -31,3 +31,6 @@ const parent = React.createElement(
 console.log(parent); //react element object, also has props(children)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(parent);
+// this is so complicated and coding becomes tedious hence the need of jsx
+
+//JSX
